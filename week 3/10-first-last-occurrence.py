@@ -1,8 +1,9 @@
 s = input()
 
-first = pos = s.find('h')
-while pos != -1:
-    last = pos
-    pos = s.find('h', pos+1)
+first = s.find('f')
+second = s.rfind('f')
 
-print(s[:first] + s[last+1:])
+if first == second and first != -1:
+    print(first)
+elif first < second:
+    print(first, second)
