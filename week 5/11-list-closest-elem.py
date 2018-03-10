@@ -1,7 +1,7 @@
 n = int(input())
 mlist = list(map(int, input().split()))
 x = int(input())
-result = 0
+result = mlist[0]
 if max(mlist) < x:
     result = max(mlist)
 elif min(mlist) > x:
