@@ -1,0 +1,11 @@
+mlist = list(map(int, input().split()))
+mn = min(mlist)
+mx = max(mlist)
+idmx = mlist.index(mx)
+idmn = mlist.index(mn)
+mlist.insert(idmx, mn)
+mlist.pop(idmx+1)
+mlist.insert(idmn, mx)
+mlist.pop(idmn+1)
+for x in mlist:
+    print(x, end=' ')
