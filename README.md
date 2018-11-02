@@ -1,4 +1,6 @@
-# Python Coursera 
-Python base from National Research University Higher School of Economics
+# Python Learning
+Python courses and contests I participated in.
 
-__[link](https://www.coursera.org/learn/python-osnovy-programmirovaniya/home/welcomehttps://www.coursera.org/learn/python-osnovy-programmirovaniya/home/welcome)__
+- __[Yandex.Lyceum](https://yandexlyceum.ru/)__ - Teachers Contest
+- __[MSU Course](http://uneex.ru/LecturesCMC/PythonIntro2018)__ - Intramural Course at Computer Science Faculty
+- __[HSE Course](https://www.coursera.org/learn/python-osnovy-programmirovaniya/home/welcome)__ - Сorrespondence Coursera Course
