@@ -1,16 +1,16 @@
 # Maximum integer in string
 
 
-a = input().split()
+string = input().split()
 first = True
-s = 0
-while a:
-    for elem in a:
-        if elem.isdigit():
+max_elem = 0
+while string:
+    for elem in string:
+        if elem.isdigit() or elem[0] == '-' and elem[1:].isdigit():
             if first:
-                s = int(elem)
+                max_elem = int(elem)
                 first = False
-            if int(elem) > s:
-                s = int(elem)
-    a = input().split()
-print(s)
+            if int(elem) > max_elem:
+                max_elem = int(elem)
+    string = input().split()
+print(max_elem)
