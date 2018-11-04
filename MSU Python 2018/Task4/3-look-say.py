@@ -7,22 +7,21 @@ def LookSay():
         s = ''
         d = ps[0]
         k = 0
-        for i in range(len(ps)):
-            if d != ps[i]:
+        for i in ps:
+            if d != i:
                 s += str(k) + d
-                d = ps[i]
+                d = i
                 k = 0
             k += 1
         s += str(k) + d
         ps = s
-        print(s)
-        for i in range(len(s)):
-            yield s[i]
+        for i in s:
+            yield i
 
 # for i, l in enumerate(LookSay()):
-#     print(f"{i}: {l}")
-#     if i > 15:
-#         break
+    # print(f"{i}: {l}")
+    # if i > 15:
+        # break
 
 # from itertools import groupby
 # def LookSay():
