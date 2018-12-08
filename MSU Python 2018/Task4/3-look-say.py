@@ -1,22 +1,27 @@
 # Look Say generator
 
 def LookSay():
-    ps = '1'
-    yield ps
+    n = 1
+    L = []
+    l = [1]
+    s = ''
+    y = ''
     while True:
-        s = ''
-        d = ps[0]
-        k = 0
-        for i in ps:
-            if d != i:
-                s += str(k) + d
-                d = i
-                k = 0
-            k += 1
-        s += str(k) + d
-        ps = s
-        for i in s:
-            yield i
+        x = str(l[n - 1]) + ' '
+        for i in range(len(x) - 1):
+            if x[i] == x[i + 1]: 
+                s += 1
+            else:
+                y += str(s)+  str(x[i])
+                s = 1
+        x = ''
+        n += 1       
+        l += [int(y), ]
+       
+        for j in range(len(y)):
+            yield int(y[j])
+        y = ''
+        s = 1
 
 # for i, l in enumerate(LookSay()):
     # print(f"{i}: {l}")
