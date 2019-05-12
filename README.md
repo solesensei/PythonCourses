@@ -1,4 +1,4 @@
-# Python Learning
+# Python Courses
 Python courses and contests I participated in.
 
 - __[Yandex.Lyceum](https://yandexlyceum.ru/)__ - Teachers Contest
