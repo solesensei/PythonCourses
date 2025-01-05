@@ -1,4 +1,6 @@
 # Python Courses
+<a href="https://www.buymeacoffee.com/solesensei"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" height="20px"></a>
+
 Python courses and contests I participated in.
 
 - __[Yandex.Lyceum](https://yandexlyceum.ru/)__ - Teachers Contest
